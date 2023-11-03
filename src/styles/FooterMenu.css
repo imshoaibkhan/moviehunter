@@ -1,0 +1,100 @@
+.footerMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: var(--clr-slate800);
+}
+
+.footerMenu__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerMenu__btn {
+  padding: 0.5em 2em;
+  margin: 0 2em;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  color: var(--clr-light);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.footerMenu__btn i {
+  font-size: var(--size-2xl);
+}
+
+.footerMenu__btn span {
+  font-size: var(--size-sm);
+}
+
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: var(--clr-slate800)
+    radial-gradient(circle, transparent 1%, var(--clr-slate800) 1%)
+    center/15000%;
+}
+.ripple:active {
+  background-color: var(--clr-gray);
+  background-size: 100%;
+  transition: background 0s;
+}
+
+@media (max-width: 768px) {
+  .footerMenu__btn {
+    padding: 0.5em 1em;
+    margin: 0.5em 1.5em 0;
+  }
+
+  .footerMenu__btn span {
+    font-size: var(--size-lg);
+  }
+}
+
+@media (max-width: 600px) {
+  .footerMenu__btn {
+    padding: 0.5em 1em;
+    margin: 0.5em .5em 0;
+  }
+
+  .footerMenu__btn span {
+    font-size: var(--size-base);
+  }
+}
+
+
+@media (max-width: 475px) {
+  .footerMenu__btn {
+    padding: 0.5em 0.6em;
+    margin: 0.5em 0.7em 0;
+  }
+
+  .footerMenu__btn span {
+    font-size: var(--size-sm);
+  }
+}
+
+@media (max-width: 361px) {
+  .footerMenu__btn {
+    padding: 0.5em 0.4em;
+    margin: 0.5em 0.5em 0;
+  }
+
+  .footerMenu__btn span {
+    font-size: var(--size-sm);
+  }
+}

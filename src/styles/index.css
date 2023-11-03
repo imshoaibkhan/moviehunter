@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+
+:root {
+  --clr-light: #F1F5F9;
+  --clr-gray: #dadadac2;
+  --clr-dark: #22254b;
+  --clr-slate400: #373c7c;
+  --clr-slate600: #303468;
+  --clr-slate800: #373b69;
+  --clr-rose: #e11d48;
+  --clr-midgreen: #004b6b;
+  --clr-indigo: #4f46e5;
+
+  /* green rgb (0, 75, 107) */
+  /* indigo rgb (79, 70, 229) */
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875em;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "General Sans", sans-serif;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+a {
+  color: var(--clr-dark);
+}
+
+strong {
+  color: var(--clr-indigo);
+}
