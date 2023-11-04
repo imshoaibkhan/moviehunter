@@ -1,6 +1,6 @@
 import axios from "axios";
 import URL from "../config/urlConfig";
-import "../styles/carousel.css";
+import "../styles/Carousel.css";
 import React, { useEffect, useState } from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
