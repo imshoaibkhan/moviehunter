@@ -96,3 +96,23 @@
     padding: 1rem 0 5rem;
   }
 }
+
+@media screen and (max-width: 475px) {
+  .tabs {
+    justify-content: center;
+  }
+
+  .tabs button {
+    font-size: var(--size-base);
+    padding: 0.5rem 0;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 361px) {
+  .tabs button {
+    font-size: var(--size-sm);
+    padding: 0.5rem 0;
+    margin-right: 1rem;
+  }
+}

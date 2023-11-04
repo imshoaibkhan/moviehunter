@@ -170,6 +170,11 @@
     padding: 1rem 0 5rem;
   }
 
+  .pageTitle {
+    font-size: var(--size-sm);
+    padding-bottom: .5rem;
+  }
+
   .movies {
     width: 175px;
     margin: .5rem;

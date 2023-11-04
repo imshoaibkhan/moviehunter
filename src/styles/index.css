@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+@import "react-alice-carousel/lib/alice-carousel.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
 
 :root {
-  --clr-light: #F1F5F9;
+  --clr-light: #f1f5f9;
   --clr-gray: #dadadac2;
   --clr-dark: #22254b;
   --clr-slate400: #373c7c;

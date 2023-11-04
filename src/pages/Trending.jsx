@@ -41,6 +41,7 @@ const Trending = () => {
               poster={card.poster_path}
               title={card.title || card.name}
               vote={card.vote_average}
+              media_type={card.media_type}
             />
           ))}
       </div>

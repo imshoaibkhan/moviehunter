@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    cursor: pointer;
+    background-color: #f50057;
+    color: #fff; 
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .youtube-icon {
+    font-size: var(--size-base);
+  }
+  
+  .button-text {
+    font-size: var(--size-base);
+    font-weight: 600;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .custom-button {
+      padding: 8px 15px;
+      width: 80%;
+      border-radius: 5px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .custom-button {
+      padding: 8px 15px;
+      width: 90%;
+      border-radius: 5px;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    .custom-button {
+      padding: 5px 15px;
+      width: 90%;
+      border-radius: 5px;
+    }
+  }

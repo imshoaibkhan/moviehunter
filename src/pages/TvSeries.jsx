@@ -34,7 +34,7 @@ const TvSeries = () => {
       </div>
       <div className="genre-container">
         <GenreChip
-          type="tv"
+          type="movie"
           genres={genres}
           setGenres={setGenres}
           selectedGenre={selectedGenre}
@@ -51,6 +51,7 @@ const TvSeries = () => {
               poster={card.poster_path}
               title={card.title || card.name}
               vote={card.vote_average}
+              media_type='tv'
             />
           ))}
       </div>

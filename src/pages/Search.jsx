@@ -27,7 +27,6 @@ const Search = () => {
     if (newType !== type) {
       setType(newType);
       setPage(1);
-      console.log(type);
     }
   };
 
@@ -86,6 +85,7 @@ const Search = () => {
                 poster={card.poster_path}
                 title={card.title || card.name}
                 vote={card.vote_average}
+                media_type={type === 'movie' ? 'movie' : 'tv'}
               />
             ))}
         </div>

@@ -52,6 +52,7 @@ const Movies = () => {
               poster={card.poster_path}
               title={card.title || card.name}
               vote={card.vote_average}
+              media_type='movie'
             />
           ))}
       </div>
