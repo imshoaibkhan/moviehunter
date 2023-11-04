@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/footerMenu.css";
+import "../styles/FooterMenu.css";
 import { useNavigate } from "react-router-dom";
 
 const FooterMenubar = () => {
