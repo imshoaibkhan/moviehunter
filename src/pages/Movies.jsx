@@ -31,7 +31,7 @@ const Movies = () => {
   return (
     <div className="main">
       <div className="pageTitle">
-        <h2>Movies List</h2>
+        <h3>Movies List</h3>
       </div>
       <div className="genre-container">
         <GenreChip

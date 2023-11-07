@@ -30,7 +30,7 @@ const TvSeries = () => {
   return (
     <div className="main">
       <div className="pageTitle">
-        <h2>TVseries List</h2>
+        <h3>TVseries List</h3>
       </div>
       <div className="genre-container">
         <GenreChip

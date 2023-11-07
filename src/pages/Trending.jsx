@@ -30,7 +30,7 @@ const Trending = () => {
   return (
     <div className="main">
       <div className="pageTitle">
-        <h2>Trending today</h2>
+        <h3>Trending today</h3>
       </div>
       <div className="trending">
         {content &&

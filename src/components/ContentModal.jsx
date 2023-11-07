@@ -40,6 +40,21 @@ const ContentModal = ({ children, id, media_type }) => {
   };
 
   useEffect(() => {
+    window.addEventListener("click", (e) => {
+      if (e.target === document.querySelector(".modal-container")) {
+        handleClose();
+      }
+    });
+    return () => {
+      window.removeEventListener("click", (e) => {
+        if (e.target === document.querySelector(".modal-container")) {
+          handleClose();
+        }
+      });
+    };
+  }, []);
+
+  useEffect(() => {
     fetchModal();
     fetchVideo();
   }, []);
